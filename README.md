@@ -2,6 +2,7 @@
 
 Este es un proyecto para la materia de Genomica Computacional que consiste en una interfaz grafica para el programa phispy.
 
+![Logo](https://github.com/MarkTwin25/Proyecto_Genomica_Computacional/blob/main/Logo.png "Logo")
 
 ## Integrantes del equipo:
  
