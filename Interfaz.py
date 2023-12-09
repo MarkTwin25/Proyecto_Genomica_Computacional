@@ -115,9 +115,6 @@ def buscar_fagos_metricas():
     boton_orf_length_med = tk.Button(window, text="orf_length_med", command=metrica_orf_length_med, bg="#fc03fc", fg="white")
     boton_orf_length_med.grid(row=2, column=1, padx=5, pady=5)
 
-    boton_predeterminado = tk.Button(window, text="Predeterminado", command=buscar_fagos)
-    boton_predeterminado.grid(row=1, column=0)
-
 
 
 def buscar_fagos_numero():
@@ -134,7 +131,7 @@ def buscar_fagos_numero():
         if ruta_archivo:
             try:
                 # Ejecuta PhiSpy.py con el archivo seleccionado
-                proceso = subprocess.Popen(["PhiSpy.py", "-o", "Streptococcus.phages", ruta_archivo, "--phage_genes", "1"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+                proceso = subprocess.Popen(["PhiSpy.py", "-o", "Streptococcus.phages/", ruta_archivo, "--phage_genes", "1"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
                 Thread(target=leer_salida, args=(proceso,)).start()
                 Thread(target=leer_error, args=(proceso,)).start()
             except Exception as e:
