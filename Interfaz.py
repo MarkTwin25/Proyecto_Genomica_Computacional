@@ -142,7 +142,7 @@ def buscar_fagos_numero():
         if ruta_archivo:
             try:
                 # Ejecuta PhiSpy.py con el archivo seleccionado
-                proceso = subprocess.Popen(["PhiSpy.py", "-o", "Streptococcus.phages", ruta_archivo, "--phage_genes", "2"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+                proceso = subprocess.Popen(["PhiSpy.py", "-o", "Streptococcus.phages/", ruta_archivo, "--phage_genes", "2"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
                 Thread(target=leer_salida, args=(proceso,)).start()
                 Thread(target=leer_error, args=(proceso,)).start()
             except Exception as e:
