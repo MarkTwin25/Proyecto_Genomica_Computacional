@@ -33,7 +33,7 @@ Y ejecutamos el siguiente comando:
 python3 Interfaz.py
 ```
 
-##Capturas de la app y comparación con phispy.
+## Capturas de la app y comparación con phispy.
 
 Vamos a ejecutar el siguiente comando para realizar una busqueda predeterminada:
 
@@ -66,7 +66,7 @@ Veamos que el resultado es el mismo. Ahora notemos que cuando hacemos una busque
 
 ![Metricas](https://github.com/MarkTwin25/Proyecto_Genomica_Computacional/blob/main/Metricas.png "Metricas")
 
-###Metricas
+### Metricas
 
 ## Licencia y aplicacion Phispy original
 https://github.com/linsalrob/PhiSpy
