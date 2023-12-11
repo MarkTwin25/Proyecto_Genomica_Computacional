@@ -12,9 +12,7 @@ Este es un proyecto para la materia de Genomica Computacional que consiste en un
 
 👯‍♀️ Romero Gonzalez Miguel Angel
 
-😄 Integrante
-
-🤔 Integrante
+😄 Hernández Morales Aldair
 
 ## Instalación y manera de ejecutarlo
 
