@@ -10,7 +10,7 @@ Este es un proyecto para la materia de Genomica Computacional que consiste en un
 
 💬 Salmerón Gómez Sebastián
 
-👯‍♀️ Integrante
+👯‍♀️ Romero Gonzalez Miguel Angel
 
 😄 Integrante
 
