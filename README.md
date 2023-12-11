@@ -8,7 +8,7 @@ Este es un proyecto para la materia de Genomica Computacional que consiste en un
  
 ⚡️ Rosas Marín Jesús Martín
 
-💬 integrante
+💬 Salmerón Gómez Sebastián
 
 👯‍♀️ Integrante
 
